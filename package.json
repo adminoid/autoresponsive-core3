@@ -1,6 +1,6 @@
 {
-  "name": "autoresponsive-core",
-  "version": "1.0.1",
+  "name": "autoresponsive-core3",
+  "version": "1.0.18",
   "description": "auto responsive grid layout library",
   "keywords": [
     "responsive",
@@ -13,7 +13,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xudafeng/autoresponsive-common.git"
+    "url": "git+https://github.com/adminoid/autoresponsive-core3.git"
   },
   "scripts": {
     "lint": "eslint lib",
@@ -22,7 +22,6 @@
     "prepublish": "npm run build",
     "contributor": "git-contributor"
   },
-  "dependencies": {},
   "precommit": [
     "lint"
   ],
@@ -37,5 +36,14 @@
     "jsx-loader": "^0.12.2",
     "mocha": "*"
   },
-  "licenses": "MIT"
+  "bugs": {
+    "url": "https://github.com/adminoid/autoresponsive-core3/issues"
+  },
+  "homepage": "https://github.com/adminoid/autoresponsive-core3#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "xudafeng",
+  "license": "MIT"
 }
